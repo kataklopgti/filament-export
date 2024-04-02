@@ -1,15 +1,15 @@
 {
-    "name": "alperenersoy/filament-export",
+    "name": "kataklopgti/filament-export",
     "description": "Customizable export and print functionality for Filament Admin Panel",
     "autoload": {
         "psr-4": {
-            "AlperenErsoy\\FilamentExport\\": "src/"
+            "kataklopgti\\FilamentExport\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "AlperenErsoy\\FilamentExport\\Tests\\": "tests/src/",
-            "AlperenErsoy\\FilamentExport\\Tests\\Database\\Factories\\": "tests/database/factories/"
+            "kataklopgti\\FilamentExport\\Tests\\": "tests/src/",
+            "kataklopgti\\FilamentExport\\Tests\\Database\\Factories\\": "tests/database/factories/"
         }
     },
     "authors": [
@@ -33,7 +33,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "AlperenErsoy\\FilamentExport\\FilamentExportServiceProvider"
+                "kataklopgti\\FilamentExport\\FilamentExportServiceProvider"
             ]
         }
     },
